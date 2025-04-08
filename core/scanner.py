@@ -11,9 +11,8 @@ from colorama import Fore, Back, Style
 import shutil
 from . import report
 
-
 CODE_VULNERABILITIES = [
-    ['Severity', 'Vulnerability', 'File', 'Info']
+    ['Severity', 'Vulnerability', 'File', 'Info', 'SHA256']
 ]
 
 

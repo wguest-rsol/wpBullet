@@ -1,4 +1,6 @@
 .idea/*
+docker-compose.yml
+data
 venv
 core/__pycache__/*.pyc
 Modules/__pycache__/*.pyc
@@ -6,3 +8,4 @@ test/Modules/__pycache__
 test/__pycache__
 .temp
 core/__init__.pyc
+reports

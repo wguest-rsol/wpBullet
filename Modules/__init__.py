@@ -8,6 +8,8 @@ from .LDAPInjection import LDAPInjection
 from .HeaderInjection import HeaderInjection
 from .OptionsUpdate import OptionsUpdate
 from .ArbitraryFileUpload import ArbitraryFileUpload
+from .Base64Usage import Base64Usage
+from .Serialization import Serialization
 
 classes = {
     'CommandExecution': CommandExecution,
@@ -19,5 +21,7 @@ classes = {
     'OptionsUpdate': OptionsUpdate,
     'SQLInjection': SQLInjection,
     'XPATHInjection': XPATHInjection,
-    'ArbitraryFileUpload': ArbitraryFileUpload
+    'ArbitraryFileUpload': ArbitraryFileUpload,
+    'Base64Usage': Base64Usage,
+    'Serialization': Serialization
 }
